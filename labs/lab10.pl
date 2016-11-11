@@ -33,7 +33,7 @@ hates(X, Y):- dog(Y), cat(X).
 
 % Given this very simple database, finish this rule which tells us who would win in a fight
 
-wins_fight(X, Y):- hates(X, Y) /*Your choice goes here*/.
+wins_fight(X, Y, Z):- hates(X, Y) /*Your choice goes here*/.
 
 % Exercise 3: Recursion and Lists
 % Much like OCaml, list processing forms the bulk of the work of Prolog functions
